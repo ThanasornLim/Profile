@@ -1,0 +1,83 @@
+/* Custom tab */
+.custom-tab {
+  margin-bottom: 20px;
+}
+
+.custom-tab .customTabs-item {
+  padding: 0px !important;
+  min-width: 0px !important;
+  margin-right: 20px !important;
+  text-transform: inherit !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  outline-width: 0px !important;
+}
+
+.custom-tab .active {
+  color: var(--main-color);
+  font-weight: bold !important;
+}
+
+/* Custom card  */
+
+.custom-card {
+  height: 100%;
+  max-width: 350px;
+  box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 5px;
+  overflow: hidden;
+  outline-width: 0px !important;
+}
+
+.custom-card .custom-card-img {
+  height: 140px;
+}
+
+.custom-card .custom-card-title {
+  font-weight: 600;
+}
+.custom-card .custom-card-caption {
+  color: #787878;
+  font-size: 14px;
+  font-weight: 300 !important;
+}
+
+/* Dialog */
+
+.project-dialog .project-dialog-image {
+    max-height:60vh;
+    width:100%;
+    object-fit: contain;
+    object-position: center center;
+    /* overflow-y:scroll ; */
+}
+
+.project-dialog .project-dialog-action {
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: center;
+}
+.project-dialog .project-dialog-description {
+    justify-content: center !important; 
+    margin-bottom: 10px;
+    font-weight:normal;
+    font-size: 12px
+}
+.project-dialog .dialog-description-tag {
+  margin-bottom:15px
+}
+
+.project-dialog .project-dialog-icon {
+    color:black;
+    margin:0px 12px;
+    cursor: pointer;
+}
+.project-dialog .project-dialog-icon:hover {
+    color:var(--main-color);
+  
+}
+
+/* ETC */
+.bold {
+  font-weight: bold;
+}

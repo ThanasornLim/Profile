@@ -1,0 +1,46 @@
+.profile {
+    background:#f5f5f5;
+    border-radius: 6px;
+    width:100%;
+    display:inline-block;
+}
+.profile-name {
+    line-height: 18px;
+    padding: 20px;
+}
+.profile-name .name {
+    color: #333;
+    text-transform: uppercase;
+    font-size:17px;
+    font-weight:bold;
+}
+.profile-name .title {
+    color: #777;
+    font-size:17px;
+}
+
+.profile-image {
+    margin-top: -10px;
+    --webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%)   ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-image img{
+    width:100%;
+    
+}
+
+.profile-info {
+    top:0;
+    left:0;
+    margin:-36px 0px 0;
+}
+
+.profile .btn-container {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 2rem;
+    margin-top:-0.7rem;
+}

@@ -1,0 +1,24 @@
+/* Contract */
+.contact-info-item {
+    font-size:14px;
+    color:#787878;
+  }
+  
+  .contact-info-item > span {
+    color:black;
+    font-weight: 600;
+  }
+  
+  .contact-info-social-container {
+    margin-top: 25px;
+  }
+  
+  .contact-info-social-icon {
+    margin-right:10px !important;
+    color:black !important;
+  }
+
+  .contact-info-item .contact-info-item-link {
+    text-decoration:none;
+    color:#787878
+  }
